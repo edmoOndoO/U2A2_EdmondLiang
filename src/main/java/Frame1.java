@@ -610,7 +610,7 @@ public class Frame1 extends javax.swing.JFrame {
         catch(Exception e)
         {
             // Display an error message if there's an exception (e.g., incorrect input)
-            JOptionPane.showMessageDialog(null, "Please make sure all info is entered correctly and is not empty", "Adding Triangle Error", JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Make sure all info is correct and not empty", "Adding Triangle Error", JOptionPane.INFORMATION_MESSAGE);
         }
     }//GEN-LAST:event_btnAddPriceActionPerformed
 
@@ -619,11 +619,10 @@ public class Frame1 extends javax.swing.JFrame {
         if(txtfloorsize.getText().isEmpty() || !isDouble(txtfloorsize.getText()))
         {
             // Display an error message and return if input is invalid
-            JOptionPane.showMessageDialog(null, "Enter a valid total floor size", "Error", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Please enter a valid total floor size", "Error", JOptionPane.ERROR_MESSAGE);
             return;
         }
         // Parse the total floor size from the input
-
         double totalFloorSize = Double.parseDouble(txtfloorsize.getText());
         
         // This is in m^2
@@ -646,7 +645,7 @@ public class Frame1 extends javax.swing.JFrame {
         if(sizeOfAllShapes - 1 > totalFloorSize)
         {
             // Display an error message and return if the floor is too small
-            JOptionPane.showMessageDialog(null, "The floor you have is too small! Please remove some tiles", "Error: floor too small", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "The floor is too small Please remove some tiles", "Error: floor too small", JOptionPane.ERROR_MESSAGE);
             return;
         }
 
@@ -654,7 +653,7 @@ public class Frame1 extends javax.swing.JFrame {
         if(sizeOfAllShapes < totalFloorSize - 1)
         {
             // Display an error message and return if there are not enough tiles
-            JOptionPane.showMessageDialog(null, "You have not enough tiles! Please add some more tiles", "Error: Not enough tiles", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Not enough tiles Please add some more", "Error: not enough tiles", JOptionPane.ERROR_MESSAGE);
             return;
         }
 
@@ -677,7 +676,7 @@ public class Frame1 extends javax.swing.JFrame {
         catch(Exception e)
         {
             // Display an error message if there's an exception (e.g., incorrect input)
-            JOptionPane.showMessageDialog(null, "Please make sure all info is entered correctly and is not empty", "Adding Triangle Error", JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Make sure all info is correct and not empty", "Adding Triangle Error", JOptionPane.INFORMATION_MESSAGE);
         }
     }//GEN-LAST:event_btnHexaActionPerformed
 
@@ -692,7 +691,7 @@ public class Frame1 extends javax.swing.JFrame {
         catch(Exception e)
         {
              // Display an error message if there's an exception (e.g., incorrect input)
-            JOptionPane.showMessageDialog(null, "Please make sure all info is entered correctly and is not empty", "Adding Circle Error", JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Make sure all info is correct and not empty", "Adding Circle Error", JOptionPane.INFORMATION_MESSAGE);
         }
     }//GEN-LAST:event_btncircleActionPerformed
 
@@ -708,7 +707,7 @@ public class Frame1 extends javax.swing.JFrame {
         catch(Exception e)
         {
             // Display an error message if there's an exception (e.g., incorrect input)
-            JOptionPane.showMessageDialog(null, "Please make sure all info is entered correctly and is not empty", "Adding Rectangle Error", JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Make sure all info is correct and not empty", "Adding Rectangle Error", JOptionPane.INFORMATION_MESSAGE);
         }
     }//GEN-LAST:event_btnrectangleActionPerformed
 
@@ -724,7 +723,7 @@ public class Frame1 extends javax.swing.JFrame {
         catch(Exception e)
         {
             // Display an error message if there's an exception (e.g., incorrect input)
-            JOptionPane.showMessageDialog(null, "Please make sure all info is entered correctly and is not empty", "Adding Triangle Error", JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Make sure all info is correct and not empty", "Adding Triangle Error", JOptionPane.INFORMATION_MESSAGE);
         }
     }//GEN-LAST:event_brnrectangleActionPerformed
 
@@ -740,7 +739,7 @@ public class Frame1 extends javax.swing.JFrame {
         catch(Exception e)
         {
             // Display an error message if there's an exception (e.g., incorrect input)
-            JOptionPane.showMessageDialog(null, "Please make sure all info is entered correctly and is not empty", "Adding Triangle Error", JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Make sure all info is correct and not empty", "Adding Triangle Error", JOptionPane.INFORMATION_MESSAGE);
         }
     }//GEN-LAST:event_btndonutActionPerformed
 
@@ -756,7 +755,7 @@ public class Frame1 extends javax.swing.JFrame {
         catch(Exception e)
         {
             // Display an error message if there's an exception (e.g., incorrect input)
-            JOptionPane.showMessageDialog(null, "Please make sure all info is entered correctly and is not empty", "Adding Triangle Error", JOptionPane.INFORMATION_MESSAGE);
+            JOptionPane.showMessageDialog(null, "Make sure all info is correct and not empty", "Adding Triangle Error", JOptionPane.INFORMATION_MESSAGE);
         }
     }//GEN-LAST:event_btnparaActionPerformed
 
